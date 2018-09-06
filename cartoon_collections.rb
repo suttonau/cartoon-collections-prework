@@ -21,6 +21,5 @@ def find_the_cheese(strings)
     strings.find {|x| cheese_types.find{|y| y == x}}
   else
     puts "No cheese"
-  
   end 
 end
