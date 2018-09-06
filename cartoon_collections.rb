@@ -8,8 +8,6 @@ def summon_captain_planet(calls)
   calls.collect do |call|
     call[0] = call.capitalize
     call << "!"
-  end 
-    calls
 end
 
 def long_planeteer_calls(words)
