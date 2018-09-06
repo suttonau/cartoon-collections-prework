@@ -22,7 +22,7 @@ def find_the_cheese(strings)
   cheese_types = ["cheddar", "gouda", "camembert"]
   
   if strings.any? {|cheese| cheese_types.include?(cheese)} == true
-    string.find {|x| cheese_types.find{|y| y == x}}
+    strings.find {|x| cheese_types.find{|y| y == x}}
   else
     puts "No cheese"
   
