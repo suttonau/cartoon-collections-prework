@@ -26,7 +26,5 @@ def find_the_cheese(strings)
   else
     puts "No cheese"
   
-  strings.find do |x|
-   cheese_types.include?(x)
   end 
 end
